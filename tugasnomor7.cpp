@@ -16,7 +16,7 @@ string kalimatBenar = "nama saya Bagas, saya berasal dari Jogja";
         do{
             cout << "pilih 1 kata yang mau diubah dari kalimat yang salah" << endl;
             cin >> katadiubah;
-            while(kalimatSalah.find(katadiubah)==string::npos){ //jika kata yang diketik tidak ditemukan maka jika dibandingkan dengan string::npos bakal menghasilkan true
+            while(kalimatSalah.find(katadiubah)==string::npos){ //jika kata yang diketik tidak ditemukan maka kalau dibandingkan dengan string::npos bakal menghasilkan true
                 cout << "kata tidak ditemukan di kalimat yang salah" << endl;
                 cout << "pilihlah 1 kata lagi yang mau diubah dari kalimat yang salah" << endl;
                 cin >> katadiubah;
@@ -44,3 +44,4 @@ string kalimatBenar = "nama saya Bagas, saya berasal dari Jogja";
     return 0;
 
 }
+
