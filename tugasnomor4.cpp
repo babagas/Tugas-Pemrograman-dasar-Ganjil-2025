@@ -10,7 +10,7 @@ int main(){
     cout << "masukkan posisi awal dari atas tanah (m) : ";
     cin >> h0;
     if(h0<0){
-        cout << "ts aint possible, if it so, do ur own math twin, i aint newton or sum physicist shii" << endl; 
+        cout << "ts aint possible, if it so, do ur own math twin, i aint newton or any physicist shii" << endl; 
     } else{
     cout << "iterasi\twaktu(s)\tposisi benda diatas tanah(m)" << endl;
     if(h0==0){
@@ -31,3 +31,4 @@ int main(){
     return 0;
 
 }
+
